@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="css/styles.css" media="all" type="text/css">
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -10,14 +10,15 @@
   <body>
     <div class="container">
       <h1>Peek-A-Boo!</h1>
-      <div class="kitten-hidding">
-        <p>Let's play peek-a-boo. Click here to see the surprise!</p>
-      </div> <!-- kitten-hidding -->
+      <div id="kitten-hiding">
+        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+      </div> <!-- END kitten-hidding -->
 
-      <div class="kitten-showing">
-        <p>Isn't it a cute kitten! Awwwww!!! :)</p>
+      <div id="kitten-showing">
+        <p>Isn't it a cute kitten! Awwwww!!! :) <span class="clickable">Click here</span> to hide it again!</p>
           <img src="img/kitten.jpg" alt="Not a kitten"/>
-      </div> <!-- kitten showing -->
-    </div> <!-- end container-div -->
+      </div> <!-- END kitten showing -->
+
+    </div> <!-- END container-->
   </body>
 </html>

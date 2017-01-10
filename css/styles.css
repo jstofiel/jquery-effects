@@ -1,7 +1,12 @@
-.container {
+#kitten-showing {
+  display: none;
 
 }
 
-img {
-  display: none;
+span {
+  cursor: pointer; color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
 }

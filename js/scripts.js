@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $("img").show();
+  $(".clickable").click(function() {
+    $("#kitten-showing").toggle();
+    $("#kitten-hiding").toggle();
   });
 });
